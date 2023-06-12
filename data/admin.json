@@ -1,0 +1,44 @@
+[
+    {
+        "id": "ID:"
+    },
+    {
+        "destination": "Destination:"
+    },
+    {
+        "lengthofstay": "Length of Stay:"
+    },
+    {
+        "startdate": "Start Date:"
+    },
+    {
+        "resort": "Resort:"
+    },
+    {
+        "person": "Per Person:"
+    },
+    {
+        "group": "Group Name"
+    },
+    {
+        "projectlabel": ""
+    },
+    {
+        "travel": "Travel"
+    },
+    {
+        "reservations": "Reservations"
+    },
+    {
+        "users": "Users"
+    },
+    {
+        "settings": "Settings"
+    },
+    {
+        "night": "Nights"
+    },
+    {
+        "day": "Days"
+    }
+]

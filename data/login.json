@@ -1,0 +1,20 @@
+[
+    {
+        "email": "Email:"
+    },
+    {
+        "password": "Password:"
+    },
+    {
+        "forgotpassword": "Forgot Password?"
+    },
+    {
+        "login": "Login"
+    },
+    {
+        "signup": "Sign-up"
+    },
+    {
+        "loginlabel": "Login"
+    }
+]

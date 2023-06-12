@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+	<script src="javascripts/function-scripts.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+	<div id="background">
+		<div id="page">
+
+			<p id="title">{{this.title}}</p>
+
+			<div id="contents">
+				<div>
+					<div id="news" class="body">
+						<div class="sidebar">
+							<h3>{{newer.[0].name}}</h3>
+							<ul>
+								<li>
+									{{{newer.[0].listone}}}
+								</li>
+								<li>
+									{{{newer.[0].listtwo}}}
+								</li>
+								<li>
+									{{{newer.[0].listthree}}}
+								</li>
+								<li>
+									{{{newer.[0].listfour}}}
+								</li>
+							</ul>
+							<h3>{{newer.[1].name}}</h3>
+							<ul>
+								<li>
+									{{{newer.[1].listone}}}
+								</li>
+								<li>
+									{{{newer.[1].listtwo}}}
+								</li>
+								<li>
+									{{{newer.[1].listthree}}}
+								</li>
+								<li>
+									{{{newer.[1].listfour}}}
+								</li>
+								<li>
+									{{{newer.[1].listfive}}}
+								</li>
+								<li>
+									{{{newer.[1].listsix}}}
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h1>{{newer.[2].name}}</h1>
+
+							{{{newer.[2].listone}}}
+							{{{newer.[2].listtwo}}}
+							{{{newer.[2].listthree}}}
+							{{{newer.[2].listfour}}}
+
+							<h2>{{newer.[3].name}}</h2>
+							{{{newer.[3].listone}}}
+
+							{{{newer.[3].listtwo}}}
+
+							{{{newer.[3].listthree}}}
+
+							{{{newer.[3].listfour}}}
+
+
+							{{> footer}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

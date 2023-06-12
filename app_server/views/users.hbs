@@ -10,22 +10,24 @@
 
 	<script src="javascripts/function-scripts.js"></script>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
 	<div id="background">
-		<div id="page">
-			{{> header isIndexPage=true}}
+			{{> header}}
+
 			<p id="title">{{this.title}}</p>
+
 			<div id="contents">
 				<div id="main">
 					<div id="sidebar">
-						{{#each main}}
+						{{#each user}} 
 						<div class="section">
 							<img src="images/{{this.image}}" alt="Background Images Showing Destinations">
+							
 						</div>
 						{{/each}}
 					</div>

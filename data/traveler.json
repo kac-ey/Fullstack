@@ -1,0 +1,42 @@
+[
+    {
+        "header": "Travel"
+    },
+    {
+        "edit": "Editable List of Stuff"
+    },
+    {
+        "previous": "< Back To Previous Page "
+    },
+    {
+        "beach": "Beaches"
+    },
+    {
+        "cruise": "Cruises"
+    },
+    {
+        "mountain": "Mountains"
+    },
+    {
+        "addtrip": "Add a Trip"
+    },
+    {
+        "tableheader": [
+            {
+                "id": "ID",
+                "name": "Name",
+                "length": "Length",
+                "start": "Start",
+                "resort": "Resort",
+                "price": "Per Person",
+                "description": "Description"
+            }
+        ]
+    },
+    {
+        "next": "Next"
+    },
+    {
+        "previous": "Previous"
+    }
+]
