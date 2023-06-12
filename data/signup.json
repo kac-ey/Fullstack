@@ -1,0 +1,35 @@
+[
+    {
+        "name": "* Name:"
+    },
+    {
+        "email": "* Email:"
+    },
+    {
+        "password": "* Password:"
+    },
+    {
+        "retypepassword": "* Re-type password:"
+    },
+    {
+        "agree": "I agree to the"
+    },
+    {
+        "terms": "Terms of Use"
+    },
+    {
+        "and": "and"
+    },
+    {
+        "privacy": "Privacy Policy."
+    },
+    {
+        "signup": "Sign-up"
+    },
+    {
+        "learn": "Learn more"
+    },
+    {
+        "signlabel": "Sign Up"
+    }
+]
